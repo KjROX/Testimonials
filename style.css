@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.full {
+  min-height: 100vh;
+  padding: 3rem 2rem;
+}
+.testimonial1 {
+  background: hsl(263, 55%, 52%);
+  /* width: 100%; */
+  padding: 2rem;
+  border-radius: 1.5rem;
+  position: relative;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15rem;
+}
+.dp1 {
+  background: url(./images/image-daniel.jpg);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid white;
+}
+.name {
+  /* justify-self: flex-start; */
+}
+.name h1 {
+  color: white;
+  font-weight: 500;
+}
+.name p {
+  color: hsl(0, 0%, 81%);
+  font-weight: 500;
+}
+.testimonial1 img {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}
+.heading {
+  margin: 2rem 0rem;
+  color: white;
+  position: relative;
+  z-index: 10;
+  font-weight: 600;
+  text-align: left;
+  font-size: 2rem;
+}
+.comment {
+  color: hsl(0, 0%, 81%);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
