@@ -39,7 +39,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 13rem;
+}
+.profile.profile1 {
   padding-right: 15rem;
+}
+.profile.profile4 {
+  padding-right: 14rem;
+}
+.profile.profile5 {
+  padding-right: 16rem;
 }
 .dp1 {
   background: url(./images/image-daniel.jpg);
@@ -100,5 +109,5 @@ body {
   color: hsl(219, 29%, 14%);
 }
 .comment5 {
-  color: hsl(217, 19%, 35%);
+  color: rgb(72, 85, 106);
 }
